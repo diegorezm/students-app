@@ -13,7 +13,11 @@ Api made with express and PostgreSql. All you would have to do to run it would b
   * **PORT='YOUR_PORT'**
   * **TOKEN_SECRET='YOUR_PASSWORD'**
 
-This sould get the api running.
+* Then just run:
+    ```bash
+        npm run dev
+    ```
+
 
 # Frontend
 App made with the purpose of studying redux,react context api and styled-components.
