@@ -15,7 +15,7 @@ Api made with express and PostgreSql. All you would have to do to run it would b
 
 * Then just run:
     ```bash
-        npm run dev
+    npm run dev
     ```
 
 
