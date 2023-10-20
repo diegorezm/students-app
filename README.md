@@ -3,17 +3,16 @@
 
 # API
 Api made with express and PostgreSql. All you would have to do to run it would be: 
-<ul>
-    <li>Create an account on [elephantsql](https://www.elephantsql.com/) ant there create an instance, the name does not matter.</li>
-    <li> 
-        run the following command (on linux/mac):
-            ```
-            git clone https://github.com/diegorezm/students-app && cd api && touch .env
-            ```
-    </li>
-    <li> create the environmental variables: **DB_URL='DB_URL'** , **PORT='YOUR_PORT'**, **TOKEN_SECRET='YOUR_PASSWORD'**</li>
+* Create an account on [elephantsql](https://www.elephantsql.com/) and there create an instance, the name does not matter.
+* Run the following command (on Linux/Mac):
+    ```bash
+    git clone https://github.com/diegorezm/students-app && cd api && touch .env
+    ```
+* Create the environmental variables:
+  * **DB_URL='DB_URL'**
+  * **PORT='YOUR_PORT'**
+  * **TOKEN_SECRET='YOUR_PASSWORD'**
 
-</ul>
 This sould get the api running.
 
 # Frontend
