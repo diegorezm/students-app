@@ -1,6 +1,4 @@
 #   APP
----- 
-
 # API
 Api made with express and PostgreSql. All you would have to do to run it would be: 
 * Create an account on [elephantsql](https://www.elephantsql.com/) and there create an instance, the name does not matter.
