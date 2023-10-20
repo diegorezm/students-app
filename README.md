@@ -16,7 +16,7 @@ Api made with express and PostgreSql. All you would have to do to run it would b
 This sould get the api running.
 
 # Frontend
-App made with the purpose of studying react-redux,react context api and styled-components.
+App made with the purpose of studying redux,react context api and styled-components.
 To run it:
 
 ```
