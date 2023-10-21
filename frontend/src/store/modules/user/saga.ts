@@ -22,7 +22,7 @@ function* loginRequest({ payload }: props) {
     yield put(action.loginSuccess({...response.data}))
     toast.success("Success!", ToastStyleSuccess(payload.colorScheme))
     axios.defaults.headers.Authorization = `Bearer ${response.data.token}`
-    payload.navigator("/students")
+    payload.navigator("/")
   } catch (e: any) {
     console.error(e.message)
     toast.error(e.response.data.error, ToastStyleError(payload.colorScheme))

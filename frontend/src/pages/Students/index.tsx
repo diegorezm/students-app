@@ -8,6 +8,7 @@ import axios from "../../services/axios";
 import { StudentInterface } from "../../types/StudentInterface";
 import { Modal } from './components'
 import toast from "react-hot-toast";
+import { useSelector } from "react-redux";
 
 interface click {
   student: StudentInterface,
