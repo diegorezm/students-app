@@ -1,3 +1,8 @@
+<div style="display: flex; flex-direction: row; align-items: center;">
+  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
+</div>
+
 #   APP
 ## API
 Api made with express and PostgreSql. All you would have to do to run it would be: 
@@ -11,7 +16,7 @@ Api made with express and PostgreSql. All you would have to do to run it would b
   * **PORT='YOUR_PORT'**
   * **TOKEN_SECRET='YOUR_PASSWORD'**
 
-* Then just run:
+* Then run:
     ```bash
     npm run dev
     ```
