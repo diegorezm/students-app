@@ -65,6 +65,7 @@ export const Dropdown = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align:center;
   width: 140px;
   height: 160px;
   top:6%;

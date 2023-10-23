@@ -21,6 +21,6 @@ Api made with express and PostgreSql. All you would have to do to run it would b
 App made with the purpose of studying redux,react context api and styled-components.
 To run it:
 
-```
+```bash
 git clone https://github.com/diegorezm/students-app  && cd frontend && npm i && npm run dev
 ```

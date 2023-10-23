@@ -43,6 +43,12 @@ export const Container = styled.div`
   gap: 15%;
   height: 360px;
   box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  .icon-text {
+    display: inline-block;
+    text-align: center;
+    margin-left:5px;
+  }
+
   .profile-pic:hover{
     cursor: pointer;
     opacity: 0.6;
@@ -79,7 +85,7 @@ export const Container = styled.div`
 export const Button = styled.button`
   width: 25%;
   height: 35px;
-  background: ${props => props.colors.cyan};
+  background:  ${props => props.colors.cyan};
   color: white;
   border: none;
   border-radius: 5px;
@@ -90,7 +96,6 @@ export const Button = styled.button`
   width: 30%;
   height: 35px;
   }
-
 `
 
 export const BtnEdit = styled.div`

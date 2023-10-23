@@ -73,14 +73,15 @@ export default function Profile() {
         <div className="profile-pic">
           {formValues.profile_pic !== 'none' ? <img onClick={showHidePfpModal} src={formValues.profile_pic} alt="pfp" /> : <FaUserAlt onClick={showHidePfpModal} className="default-icon" />}
         </div>
-        <div>
-          <p>
-            <FaUserTie /> {user.username}
-          </p>
-          <p>
-            <FaEnvelope /> {user.email}
-          </p>
-        </div>
+          <div>
+  <p>
+    <FaUserTie /> <span className="icon-text">{user.username}</span>
+  </p>
+  <p>
+    <FaEnvelope /> <span className="icon-text">{user.email}</span>
+  </p>
+</div>
+
       </Container>
     </>
   )

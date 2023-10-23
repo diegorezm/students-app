@@ -31,13 +31,13 @@ export default function Header() {
       <Dropdown colors={colorScheme}>
         <ul>
           <li onClick={showHideDropdown}>
-            <Link to="/profile" className='links'>
-              Profile
+            <Link to="/" className='links'>
+              Students
             </Link>
           </li>
           <li onClick={showHideDropdown}>
-            <Link to="/students" className='links'>
-              Students
+            <Link to="/profile" className='links'>
+              Profile
             </Link>
           </li>
           <li onClick={showHideDropdown}>

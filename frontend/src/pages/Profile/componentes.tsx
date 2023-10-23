@@ -1,5 +1,5 @@
 import {Form} from "../../styles/GlobalStyles"
-import {Button, BtnDel, ModalContainer} from "./styles"
+import {Button, BtnDel, ModalContainer, ButtonDelete} from "./styles"
 import ModalBg from "../../components/ModalBg"
 import LabelInput from "../../components/LabelInput"
 import {FaWindowClose} from "react-icons/fa"
@@ -70,6 +70,9 @@ export const ChangeProfilePic = ({handlePfpForm,showHidePfpModal,setFormValues ,
             onChange={e => setFormValues( { ...formValues,profile_pic: e } )}
           />
           <Button type="submit" colors={colorScheme}>Edit</Button>
+          <span style={{
+            fontSize: 16
+          }}>type 'none' if you want to remove your profile pic...</span>
         </Form>
       </ModalContainer>
     </ModalBg >
